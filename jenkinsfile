@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-          APP_NAME = "auth-service"
+          APP_NAME = "auth-service-pipeline"
     }
     stages {
          stage("Cleanup Workspace") {
