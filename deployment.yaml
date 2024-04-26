@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: auth-service:1.0.0-23
+  name: auth-service-deployment
 spec:
   replicas: 1
   selector:
