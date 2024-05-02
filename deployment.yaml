@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth-app
-          image: sachinthadev/auth-service:1.0.0-36
+          image: sachinthadev/auth-service:1.0.0-10
           resources:
             limits:
               cpu: "1"
