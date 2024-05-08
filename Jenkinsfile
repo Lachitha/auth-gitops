@@ -11,7 +11,7 @@ pipeline {
          }
          stage("Checkout from SCM") {
              steps {
-                     git branch: 'main', credentialsId: 'github', url: 'https://github.com/Sachintha-dev/auth-gitops.git'
+                     git branch: 'main', credentialsId: 'github', url: 'https://github.com/Lachitha/auth-gitops.git'
              }
          }
          stage("Update the Deployment Tags") {
